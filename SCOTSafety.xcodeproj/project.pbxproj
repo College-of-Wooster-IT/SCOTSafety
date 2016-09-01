@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200E6B0F19646868003685D6 /* Help round.png in Resources */ = {isa = PBXBuildFile; fileRef = 200E6B0C19646868003685D6 /* Help round.png */; };
+		200E6B1019646868003685D6 /* Med round.png in Resources */ = {isa = PBXBuildFile; fileRef = 200E6B0D19646868003685D6 /* Med round.png */; };
+		200E6B1119646868003685D6 /* Taxi round.png in Resources */ = {isa = PBXBuildFile; fileRef = 200E6B0E19646868003685D6 /* Taxi round.png */; };
+		20122312195B0EFC00BA8ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20122311195B0EFC00BA8ACF /* main.m */; };
+		20122315195B0EFC00BA8ACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20122314195B0EFC00BA8ACF /* AppDelegate.m */; };
+		20122318195B0EFC00BA8ACF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20122317195B0EFC00BA8ACF /* ViewController.m */; };
+		2012231B195B0EFC00BA8ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20122319195B0EFC00BA8ACF /* Main.storyboard */; };
+		2012231D195B0EFC00BA8ACF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2012231C195B0EFC00BA8ACF /* Images.xcassets */; };
+		20122329195B0EFD00BA8ACF /* Scot_SafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20122328195B0EFD00BA8ACF /* Scot_SafetyTests.m */; };
+		20122349195B23F500BA8ACF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 20122348195B23F500BA8ACF /* ViewController2.m */; };
+		20122358195B37D100BA8ACF /* not-wordmark black on gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 20122357195B37D100BA8ACF /* not-wordmark black on gold.png */; };
+		20DFF4FD1961CA5D00064292 /* tartan.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DFF4FC1961CA5D00064292 /* tartan.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20122323195B0EFC00BA8ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20122304195B0EFC00BA8ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2012230B195B0EFC00BA8ACF;
+			remoteInfo = "Untitled Security App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200E6B0C19646868003685D6 /* Help round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help round.png"; sourceTree = "<group>"; };
+		200E6B0D19646868003685D6 /* Med round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Med round.png"; sourceTree = "<group>"; };
+		200E6B0E19646868003685D6 /* Taxi round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Taxi round.png"; sourceTree = "<group>"; };
+		2012230C195B0EFC00BA8ACF /* SCOTSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCOTSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20122310195B0EFC00BA8ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20122311195B0EFC00BA8ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20122313195B0EFC00BA8ACF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20122314195B0EFC00BA8ACF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20122316195B0EFC00BA8ACF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20122317195B0EFC00BA8ACF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2012231A195B0EFC00BA8ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2012231C195B0EFC00BA8ACF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20122322195B0EFC00BA8ACF /* SCOTSafetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCOTSafetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20122327195B0EFD00BA8ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20122328195B0EFD00BA8ACF /* Scot_SafetyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scot_SafetyTests.m; sourceTree = "<group>"; };
+		20122347195B23F400BA8ACF /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = ../ViewController2.h; sourceTree = "<group>"; };
+		20122348195B23F500BA8ACF /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = ../ViewController2.m; sourceTree = "<group>"; };
+		20122357195B37D100BA8ACF /* not-wordmark black on gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "not-wordmark black on gold.png"; sourceTree = "<group>"; };
+		20DFF4FC1961CA5D00064292 /* tartan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tartan.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20122309195B0EFC00BA8ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2012231F195B0EFC00BA8ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20122303195B0EFC00BA8ACF = {
+			isa = PBXGroup;
+			children = (
+				2012230E195B0EFC00BA8ACF /* Scot Safety */,
+				20122325195B0EFC00BA8ACF /* Scot SafetyTests */,
+				2012230D195B0EFC00BA8ACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2012230D195B0EFC00BA8ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2012230C195B0EFC00BA8ACF /* SCOTSafety.app */,
+				20122322195B0EFC00BA8ACF /* SCOTSafetyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2012230E195B0EFC00BA8ACF /* Scot Safety */ = {
+			isa = PBXGroup;
+			children = (
+				20122357195B37D100BA8ACF /* not-wordmark black on gold.png */,
+				20DFF4FC1961CA5D00064292 /* tartan.png */,
+				200E6B0C19646868003685D6 /* Help round.png */,
+				200E6B0D19646868003685D6 /* Med round.png */,
+				200E6B0E19646868003685D6 /* Taxi round.png */,
+				20122313195B0EFC00BA8ACF /* AppDelegate.h */,
+				20122314195B0EFC00BA8ACF /* AppDelegate.m */,
+				20122316195B0EFC00BA8ACF /* ViewController.h */,
+				20122317195B0EFC00BA8ACF /* ViewController.m */,
+				20122347195B23F400BA8ACF /* ViewController2.h */,
+				20122348195B23F500BA8ACF /* ViewController2.m */,
+				20122319195B0EFC00BA8ACF /* Main.storyboard */,
+				2012231C195B0EFC00BA8ACF /* Images.xcassets */,
+				2012230F195B0EFC00BA8ACF /* Supporting Files */,
+			);
+			name = "Scot Safety";
+			path = "Untitled Security App";
+			sourceTree = "<group>";
+		};
+		2012230F195B0EFC00BA8ACF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20122310195B0EFC00BA8ACF /* Info.plist */,
+				20122311195B0EFC00BA8ACF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20122325195B0EFC00BA8ACF /* Scot SafetyTests */ = {
+			isa = PBXGroup;
+			children = (
+				20122328195B0EFD00BA8ACF /* Scot_SafetyTests.m */,
+				20122326195B0EFD00BA8ACF /* Supporting Files */,
+			);
+			name = "Scot SafetyTests";
+			path = "Untitled Security AppTests";
+			sourceTree = "<group>";
+		};
+		20122326195B0EFD00BA8ACF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20122327195B0EFD00BA8ACF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2012230B195B0EFC00BA8ACF /* SCOTSafety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2012232C195B0EFD00BA8ACF /* Build configuration list for PBXNativeTarget "SCOTSafety" */;
+			buildPhases = (
+				20122308195B0EFC00BA8ACF /* Sources */,
+				20122309195B0EFC00BA8ACF /* Frameworks */,
+				2012230A195B0EFC00BA8ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCOTSafety;
+			productName = "Untitled Security App";
+			productReference = 2012230C195B0EFC00BA8ACF /* SCOTSafety.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20122321195B0EFC00BA8ACF /* SCOTSafetyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2012232F195B0EFD00BA8ACF /* Build configuration list for PBXNativeTarget "SCOTSafetyTests" */;
+			buildPhases = (
+				2012231E195B0EFC00BA8ACF /* Sources */,
+				2012231F195B0EFC00BA8ACF /* Frameworks */,
+				20122320195B0EFC00BA8ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20122324195B0EFC00BA8ACF /* PBXTargetDependency */,
+			);
+			name = SCOTSafetyTests;
+			productName = "Untitled Security AppTests";
+			productReference = 20122322195B0EFC00BA8ACF /* SCOTSafetyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20122304195B0EFC00BA8ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yashasvi Lohia";
+				TargetAttributes = {
+					2012230B195B0EFC00BA8ACF = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = K3MZ2S8DYW;
+					};
+					20122321195B0EFC00BA8ACF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 2012230B195B0EFC00BA8ACF;
+					};
+				};
+			};
+			buildConfigurationList = 20122307195B0EFC00BA8ACF /* Build configuration list for PBXProject "SCOTSafety" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20122303195B0EFC00BA8ACF;
+			productRefGroup = 2012230D195B0EFC00BA8ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2012230B195B0EFC00BA8ACF /* SCOTSafety */,
+				20122321195B0EFC00BA8ACF /* SCOTSafetyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2012230A195B0EFC00BA8ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2012231B195B0EFC00BA8ACF /* Main.storyboard in Resources */,
+				200E6B0F19646868003685D6 /* Help round.png in Resources */,
+				200E6B1119646868003685D6 /* Taxi round.png in Resources */,
+				2012231D195B0EFC00BA8ACF /* Images.xcassets in Resources */,
+				20DFF4FD1961CA5D00064292 /* tartan.png in Resources */,
+				200E6B1019646868003685D6 /* Med round.png in Resources */,
+				20122358195B37D100BA8ACF /* not-wordmark black on gold.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20122320195B0EFC00BA8ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20122308195B0EFC00BA8ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20122318195B0EFC00BA8ACF /* ViewController.m in Sources */,
+				20122349195B23F500BA8ACF /* ViewController2.m in Sources */,
+				20122315195B0EFC00BA8ACF /* AppDelegate.m in Sources */,
+				20122312195B0EFC00BA8ACF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2012231E195B0EFC00BA8ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20122329195B0EFD00BA8ACF /* Scot_SafetyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20122324195B0EFC00BA8ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2012230B195B0EFC00BA8ACF /* SCOTSafety */;
+			targetProxy = 20122323195B0EFC00BA8ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20122319195B0EFC00BA8ACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2012231A195B0EFC00BA8ACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2012232A195B0EFD00BA8ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2012232B195B0EFD00BA8ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2012232D195B0EFD00BA8ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The College of Wooster (K3MZ2S8DYW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The College of Wooster (K3MZ2S8DYW)";
+				INFOPLIST_FILE = "Untitled Security App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.security.wooster.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SCOTSafety;
+				PROVISIONING_PROFILE = "99e666f2-8f94-4968-b00f-226127289fb4";
+			};
+			name = Debug;
+		};
+		2012232E195B0EFD00BA8ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The College of Wooster (K3MZ2S8DYW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The College of Wooster (K3MZ2S8DYW)";
+				INFOPLIST_FILE = "Untitled Security App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.security.wooster.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SCOTSafety;
+				PROVISIONING_PROFILE = "99e666f2-8f94-4968-b00f-226127289fb4";
+			};
+			name = Release;
+		};
+		20122330195B0EFD00BA8ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Untitled Security App.app/Untitled Security App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Untitled Security AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.security.wooster.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SCOTSafetyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		20122331195B0EFD00BA8ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Untitled Security App.app/Untitled Security App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Untitled Security AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.security.wooster.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SCOTSafetyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20122307195B0EFC00BA8ACF /* Build configuration list for PBXProject "SCOTSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2012232A195B0EFD00BA8ACF /* Debug */,
+				2012232B195B0EFD00BA8ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2012232C195B0EFD00BA8ACF /* Build configuration list for PBXNativeTarget "SCOTSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2012232D195B0EFD00BA8ACF /* Debug */,
+				2012232E195B0EFD00BA8ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2012232F195B0EFD00BA8ACF /* Build configuration list for PBXNativeTarget "SCOTSafetyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20122330195B0EFD00BA8ACF /* Debug */,
+				20122331195B0EFD00BA8ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20122304195B0EFC00BA8ACF /* Project object */;
+}
